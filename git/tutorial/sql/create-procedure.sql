@@ -1,3 +1,8 @@
+USE ROLE ACCOUNTADMIN;
+
+USE DATABASE tutorial_git_db;
+USE SCHEMA tutorial_git_db.integrations;
+
 CREATE OR REPLACE PROCEDURE tutorial_filter_by_role(tableName VARCHAR, role VARCHAR)
   RETURNS TABLE(id NUMBER, name VARCHAR, role VARCHAR)
   LANGUAGE PYTHON
