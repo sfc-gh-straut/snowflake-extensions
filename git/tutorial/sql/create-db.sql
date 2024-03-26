@@ -8,6 +8,7 @@ CREATE OR REPLACE WAREHOUSE tutorial_git_wh
   
 USE DATABASE tutorial_git_db;
 CREATE OR REPLACE SCHEMA tutorial_git_schema;
+
 USE SCHEMA tutorial_git_db.tutorial_git_schema;
 
 CREATE OR REPLACE TABLE employees(id NUMBER, name VARCHAR, role VARCHAR);

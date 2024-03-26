@@ -1,5 +1,6 @@
 USE ROLE ACCOUNTADMIN;
 
+USE WAREHOUSE tutorial_git_wh;
 USE DATABASE tutorial_git_db;
 USE SCHEMA tutorial_git_db.tutorial_git_schema;
 
