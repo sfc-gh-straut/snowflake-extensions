@@ -1,7 +1,7 @@
 USE ROLE ACCOUNTADMIN;
 
 USE DATABASE tutorial_git_db;
-USE SCHEMA tutorial_git_db.integrations;
+USE SCHEMA tutorial_git_db.tutorial_git_schema;
 
 CREATE OR REPLACE GIT REPOSITORY snowflake_extensions
   API_INTEGRATION = git_api_integration
